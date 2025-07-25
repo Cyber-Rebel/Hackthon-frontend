@@ -25,12 +25,13 @@ const Course = () => {
 
         <p className="text-lg font-bold text-teal-300">₹999 only</p>
 
-        <button onClick={()=>{
+        <button   onClick={()=>{
 
          navigate('/coursecheakout')
-        }} className="w-full bg-teal-400 hover:bg-teal-500 text-black font-semibold py-2 px-4 rounded-xl transition-all">
+        }} className="w-full  bg-teal-400 hover:bg-teal-500 text-black font-semibold py-2 px-4 rounded-xl transition-all">
           Check out course
         </button>
+        
         
         
       </div>
@@ -39,6 +40,6 @@ const Course = () => {
 
 
 };
-
+//disabled={true}
 export default Course;
     

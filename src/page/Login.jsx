@@ -21,6 +21,8 @@ const Login = () => {
 
     // ✅ redirect to /course
     navigate("/course");
+
+     window.location.reload();
   };
 
   return (

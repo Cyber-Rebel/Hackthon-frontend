@@ -1,7 +1,8 @@
 import { div } from "framer-motion/client";
 import React from "react";
-
+import {useNavigate} from 'react-router-dom'
 const Hero = () => {
+  const navigate= useNavigate()
   return (
 <div className="flex  w-full gap-10  ">
     <section className="w-[60%] flex flex-col justify-center items-start px-8 md:px-20 py-16 space-y-6">
@@ -13,10 +14,14 @@ const Hero = () => {
         Design agency crafting minimal brand identities that speak volumes.
       </p>
       <div className="flex space-x-4">
-        <button className="bg-orange-400 text-black px-5 py-2 rounded font-medium hover:bg-orange-500 transition">
+        <button onClick={()=>{
+          navigate('/course')
+        }} className="bg-orange-400 text-black px-5 py-2 rounded font-medium hover:bg-orange-500 transition">
           View Course
         </button>
-        <button className="border border-gray-400 px-5 py-2 rounded font-medium hover:border-white transition">
+        <button onClick={()=>{
+          navigate('/buy-book')
+        }} className="border border-gray-400 px-5 py-2 rounded font-medium hover:border-white transition">
           View Books 
         </button>
       </div>
