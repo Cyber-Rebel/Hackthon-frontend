@@ -7,7 +7,7 @@ const Course = () => {
     <div className="max-w-sm rounded-xl overflow-hidden bg-black text-white shadow-lg border border-neutral-800">
       <img
         className="w-full h-60 object-cover"
-        src="https://ik.imagekit.io/cyberrebel/image.png?updatedAt=1753254746911"
+        src="https://ik.imagekit.io/cyberrebel/New%20Folder/image.png?updatedAt=1753467467726"
         alt="DSA Domination"
       />
       <div className="p-4 space-y-3">
